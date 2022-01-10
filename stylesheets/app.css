@@ -1,0 +1,94 @@
+img {
+  width: 100px;
+}
+
+h1 {
+  color: #ff3467;
+  text-align: center;
+  padding-left: 4px;
+  padding-top: 35px;
+  font-size: 45px;
+}
+
+input[type="search"] {
+  width: 250px;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 12px 20px 20px 30px;
+  transition: width 0.4s ease-in-out;
+}
+input[type="search"]:focus {
+  width: 50%;
+}
+
+input[type="submit"] {
+  height: 54px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #007bff;
+
+  box-sizing: border-box;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 52px 0px;
+  box-shadow: 0 0.125px 0.25px rgba(0, 0, 0, 0.075) !important;
+  padding: 12px 20px 20px 20px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  overflow: visible;
+}
+input[type="submit"]:focus {
+  -webkit-appearance: button;
+}
+
+button {
+  height: 54px;
+  margin: 52px -20px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff3467;
+}
+
+p {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: #ff3467;
+}
+
+.card-body {
+  background-color: #eaf6ff;
+  border: 5px solid #d1ebff;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+.search-form {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  display: block;
+  border: 3px solid #ced4da;
+  border-radius: 4px;
+  background-color: #d1ebff;
+}
