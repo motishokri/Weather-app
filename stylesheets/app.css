@@ -11,7 +11,7 @@ h1 {
 }
 
 input[type="search"] {
-  width: 250px;
+  width: 300px;
   display: block;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -23,7 +23,7 @@ input[type="search"] {
   transition: width 0.4s ease-in-out;
 }
 input[type="search"]:focus {
-  width: 50%;
+  width: 70%;
 }
 
 input[type="submit"] {
